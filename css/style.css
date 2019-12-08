@@ -123,9 +123,7 @@ nav ul li a:hover{
     background-image: url('../images/Background.jpg');
     background-position: center center;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 .centering{
     position: absolute;
