@@ -218,8 +218,7 @@ nav ul li a:hover{
   opacity: .5;
 }
 .skills-me-info{
-  max-width: auto;
-  background: #e3e3e3;
+   background: #e3e3e3;
   box-shadow: 0 0 1.2rem rgba(0, 0,0,.25);
   padding: 50px;
   position: relative;
@@ -590,16 +589,18 @@ nav ul li a:hover{
     .cons{
         padding: 0 20px 0 20px;
     }
-    .skills-me-info{
+  .skills-me-info{
         display: inline-block;
         position: relative;
+        width: 68%;
     }
     .html{
         display: flex;
+        max-height: unset;
     }
     .skills-me-info img{
         height: auto;
-        width: 2rem;
+        width: 7rem;
     }
     .concatme{
         text-align: center;
