@@ -592,11 +592,11 @@ nav ul li a:hover{
   .skills-me-info{
         display: inline-block;
         position: relative;
-        width: 68%;
+       
     }
     .html{
         display: flex;
-        max-height: unset;
+       
     }
     .skills-me-info img{
         height: auto;
