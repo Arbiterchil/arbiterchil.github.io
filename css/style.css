@@ -554,17 +554,9 @@ nav ul li a:hover{
 
 
 @media only screen and (max-width: 768px){
-
-   
-    .container{
-        grid-template-areas: 
-        "content";
-        grid-template-columns: 300px 1fr;
-        grid-template-rows: 1fr auto;
-    }
-
-    .hero img{
-        width: 10rem;
+.html{
+        display: flex;
+        max-height: unset;
     }
 
 
@@ -577,25 +569,24 @@ nav ul li a:hover{
     
     }
     .about h1 {
-        float: right;
         font-size: 3rem;
     }
     .skills h1{
-           font-size: 5rem;
+        font-size: 5rem;
+        transform: translateY(-3rem) !important;
+        text-align: center;
     }
     .resume h1{
-        float: right;
-        font-size: 3rem;
+        position: unset;
+        font-size: 5rem;
  }
     .cons{
         padding: 0 20px 0 20px;
     }
-     .skills-me-info{
+    .skills-me-info{
         display: inline-block;
         position: relative;
-    }
-    .html{
-        display: flex;
+        width: 68%;
     }
     .skills-me-info img{
         height: auto;
@@ -605,10 +596,10 @@ nav ul li a:hover{
         text-align: center;
         width: 100px;
         box-sizing: border-box;
-        margin: 5px 5px 5px 5px;
+        margin: 20px 20px 20px 20px;
     }
     .concatme .word{
-        padding: 5px 5px 5px 5px;
+        padding: 20px 20px 20px 20px;
         color: whitesmoke;
         background: #07111b;    
     }
