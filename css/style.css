@@ -555,6 +555,19 @@ nav ul li a:hover{
 
 @media only screen and (max-width: 768px){
 
+   
+    .container{
+        grid-template-areas: 
+        "content";
+        grid-template-columns: 300px 1fr;
+        grid-template-rows: 1fr auto;
+    }
+
+    .hero img{
+        width: 10rem;
+    }
+
+
     .boxme{
         justify-content: center;
         text-align: center;
@@ -564,15 +577,15 @@ nav ul li a:hover{
     
     }
     .about h1 {
-        float: left;
-        font-size: 5rem;
+        float: right;
+        font-size: 3rem;
     }
     .skills h1{
            font-size: 5rem;
     }
     .resume h1{
-        float: left;
-        font-size: 5rem;
+        float: right;
+        font-size: 3rem;
  }
     .cons{
         padding: 0 20px 0 20px;
@@ -586,7 +599,7 @@ nav ul li a:hover{
     }
     .skills-me-info img{
         height: auto;
-        width: 7rem;
+        width: 2rem;
     }
     .concatme{
         text-align: center;
