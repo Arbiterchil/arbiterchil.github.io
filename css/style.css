@@ -19,9 +19,9 @@ header{
     padding:    5px;
     /* background: #07111b; */
     box-shadow: 0 2px 5px rgba(0, 0,0,.2);
-    /* position: sticky;
+    position: sticky;
     top: 0;
-    z-index: 3; */
+    z-index: 999; 
 }
 .logo{
     color:  #07111b;
@@ -538,6 +538,9 @@ nav ul li a:hover{
     width:100%;
     opacity: .9;
 }
+.boxme:not(:last-child) {
+   margin-bottom: 1rem;
+}
 .boxme h2{
     color: whitesmoke;
     font-size: 2rem;
@@ -559,16 +562,14 @@ nav ul li a:hover{
 
 @media only screen and (max-width: 768px){
 
-    .projects-container {
- padding: 2rem;
+   .project-container {
+ padding: 2rem !important;
 }
-    
-    .boxme{
-        justify-content: center;
-        text-align: center;
-        margin: 0 ;
-        padding: 0 ;
-    }
+
+.boxme {
+  margin: 0;
+  padding: .5rem;
+}
     .boxme p{
         width: auto;
     
